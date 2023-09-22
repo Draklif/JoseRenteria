@@ -53,3 +53,24 @@ const scrollTop = () => {
     this.scrollY >= 560 ? scrollTop.classList.add('show-scroll') : scrollTop.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollTop)
+
+// Filter portfolio
+const mixer = mixitup('.portfolio__container', {
+    selectors: {
+        target: '.portfolio__content'
+    },
+    animation: {
+        duration: 400
+    }
+})
+
+// Link active portfolio
+const linkPortfolio = document.querySelectorAll('.portfolio__item')
+
+function activePortfolio() {
+    if (linkPortfolio) {
+        linkPortfolio.forEach(link => link.classList.remove('active-portfolio'))
+        this.classList.add('active-portfolio')
+    }
+}
+linkPortfolio.forEach(link => link.addEventListener('click', activePortfolio))

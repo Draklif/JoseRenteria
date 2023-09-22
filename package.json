@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "boxicons": "^2.1.4"
+  },
+  "devDependencies": {
+    "mixitup": "^3.3.1"
   }
 }
