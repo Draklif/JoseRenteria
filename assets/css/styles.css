@@ -5,10 +5,10 @@
     --header-height: 3rem;
 
     /* Colors */
-    --first-color: #3E0E12;
-    --first-color-dark: #2F0A0D;
-    --text-color: #524748;
-    --first-color-light: #7B6F71;
+    --first-color: #0e103e;
+    --first-color-dark: #140a2f;
+    --text-color: #494752;
+    --first-color-light: #706f7b;
     --first-color-lighten: #FBF9F9;
 
     /* Font and Typo */
@@ -139,6 +139,7 @@ img {
 
 /* Navbar */
 .nav {
+    z-index: 2000;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -225,7 +226,7 @@ img {
     justify-content: center;
     align-items: center;
     padding: .5rem;
-    background: rgba(123, 111, 113, .7);
+    background: rgba(112, 111, 123, 0.7);
     border-radius: .5rem;
     z-index: var(--z-tooltip);
     transition: .4s;
@@ -294,6 +295,12 @@ img {
 
 .home__img img {
     width: 240px;
+    transition: ease 0.2s;
+}
+
+.home__img img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .home__social {
@@ -633,6 +640,71 @@ img {
     color: var(--first-color-light); 
 }
 
+/* Sidebar */
+.portfolio-sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: var(--z-normal);
+    transition: right 0.4s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.portfolio-sidebar-content {
+    position: absolute;
+    top: 6rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio-sidebar-image {
+    max-width: 90%; 
+    margin-top: 20px;
+}
+
+.portfolio-sidebar-title {
+    margin-top: 20px; 
+    font-size: 1.5rem;
+}
+
+.portfolio-sidebar-description {
+    margin-top: 10px;
+}
+
+.close-sidebar {
+    position: absolute;
+    left: 20px; /* Arriba del todo para fácil acceso */
+    top: -6px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.button-link-sidebar {
+    margin: 2rem;
+    background: none;
+    color: var(--first-color);
+    padding: 0;
+}
+
+.button-link-sidebar:hover {
+    background: none;
+}
+
+.portfolio-sidebar-active {
+    right: 0;
+}
+
 /* Media queries */
 @media screen and (min-width: 576px) {
     .home__img img {
@@ -747,6 +819,7 @@ img {
     }
 }
 
+
 @media screen and (min-width: 1024px) {
     .bd-container {
         margin-left: auto;
@@ -755,5 +828,9 @@ img {
 
     .qualification__container {
         column-gap: 6rem;
+    }
+
+    .portfolio-sidebar {
+        width: 35%;
     }
 }
