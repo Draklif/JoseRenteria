@@ -99,7 +99,7 @@ const details = {
         projectUrl: 'https://draklif.github.io/Modern-Bank/'
     },
     'portfolio-4': {
-        title: 'Clasrroom 2',
+        title: 'Classroom 2',
         category: 'Diseño UI/UX',
         description: 'Descripción detallada del Proyecto Uno.',
         imageUrl: 'assets/img/work4.jpg',
