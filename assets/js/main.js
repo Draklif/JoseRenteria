@@ -101,7 +101,7 @@ const details = {
     'portfolio-4': {
         title: 'Classroom 2',
         category: 'Diseño y Modelado',
-        description: 'Descripción detallada del Proyecto Uno.',
+        description: 'Classroom 2 es una aplicación para crear, administrar y compartir proyectos colaborativos. Posee una interfaz limpia e innovadora basada en usabilidad y accesibilidad.<br><br>Se realizó un extenso proceso de levantamiento de requisitos para llegar a la visión de los dueños de prodcuto.',
         imageUrl: 'assets/img/work4.jpg',
         projectUrl: 'https://www.figma.com/file/XdQbqzUGJiIPEk5IZhSbXD/Classroom-2%3A-Recargado?type=design&node-id=1516%3A368&mode=design&t=gW4KP2OqbZ6dtgc8-1'
     },
@@ -115,14 +115,14 @@ const details = {
     'portfolio-6': {
         title: 'Facturador VUE',
         category: 'Estudios',
-        description: 'Descripción detallada del Proyecto Uno.',
+        description: 'Aplicación simplificada que simula la creación de una factura con descuentos aplicados de manera automática.<br><br>Permite agregar, eliminar y actualizar artículos.',
         imageUrl: 'assets/img/work6.jpg',
         projectUrl: 'https://draklif.github.io/TDW-TallerVue/'
     },
     'portfolio-7': {
         title: 'Skinbox',
         category: 'Desarrollo Web',
-        description: 'Descripción detallada del Proyecto Uno.',
+        description: 'Skinbox es una landing page realizada para la exposición de las materias de Portafolio y Taller de Exhibiciones de la Universidad de Boyacá, 2023. La landing page cuenta con una serie de animaciones trabajadas con GSAP.<br><br>La página cuenta con una serie de cards que despliegan los identificadores gráficos de los expositores, además de su fotografía personal y un enlace a sus respectivos portafolios.',
         imageUrl: 'assets/img/work7.jpg',
         projectUrl: 'https://draklif.github.io/Skinbox/'
     },
@@ -131,7 +131,7 @@ const details = {
         category: 'Diseño y Modelado',
         description: 'Proceso de diseño para un personaje de un videojuego. MIMO-3 es un pequeño robot modelado y animado en Blender.<br><br>Se aplicó un blocking sencillo, una retopología simple y, posteriormente, un proceso de rigging personalizado que permitiera mover cada pieza del robot de manera independiente. El texturizado se realizó en Substance 3D Painter, otorgándole realismo al diseño.<br><br>El proceso a detalle se puede ver a continuación:',
         imageUrl: 'assets/img/work8.jpg',
-        projectUrl: 'https://draklif.github.io/Skinbox/'
+        projectUrl: 'https://www.behance.net/gallery/184733399/MIMO-3'
     },
     'more-1': {
         title: 'Identificador Gráfico',
@@ -157,8 +157,8 @@ const details = {
     'logo': {
         title: 'Identificador Gráfico',
         category: 'NA',
-        description: 'El identificador gráfico fue diseñado.',
-        imageUrl: 'assets/img/LogoBlack.png',
+        description: 'El identificador gráfico fue diseñado de tal forma que tuviera rendimiento en páginas web. Posee variaciones para modo claro y modo oscuro.',
+        imageUrl: 'assets/img/LogoWhite.png',
         projectUrl: 'https://www.behance.net/gallery/181631701/Proyecto-de-Marca'
     },
 };
