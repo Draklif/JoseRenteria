@@ -80,27 +80,27 @@ const details = {
     'portfolio-1': {
         title: 'To-Do Machine',
         category: 'Desarrollo web',
-        description: 'Descripción detallada del Proyecto Uno.',
+        description: 'Aplicación sencilla realizada en React.js que actúa como una lista de tareas pendientes. Posee funcionalidades para buscar, agregar, añadir, actualizar y eliminar.<br><br>El desarrollo en React permite que la aplicación reaccione a las acciones del usuario de manera casi inmediata, dando la sensación de que la aplicación está viva.',
         imageUrl: 'assets/img/work1.jpg',
         projectUrl: 'https://draklif.github.io/TODO-Machine/'
     },
     'portfolio-2': {
         title: 'Landing Page Asíncrona',
         category: 'Desarrollo web',
-        description: 'Descripción detallada del Proyecto Uno.',
+        description: 'Esta landing page consume la API de YouTube para extraer los ultimos videos de un youtuber en específico. Sirve como muestra de diseño, utilizando Tailwind CSS y, para extraer los videos, JS puro.',
         imageUrl: 'assets/img/work2.jpg',
         projectUrl: 'https://draklif.github.io/Async-Landing-Page/'
     },
     'portfolio-3': {
         title: 'HooBank',
-        category: 'Diseño UI/UX',
-        description: 'Descripción detallada del Proyecto Uno.',
+        category: 'Diseño y Modelado',
+        description: 'HooBank es una aplicación ligera de un banco aplicando CSS puro para traer a la vida un diseño moderno.',
         imageUrl: 'assets/img/work3.jpg',
         projectUrl: 'https://draklif.github.io/Modern-Bank/'
     },
     'portfolio-4': {
         title: 'Classroom 2',
-        category: 'Diseño UI/UX',
+        category: 'Diseño y Modelado',
         description: 'Descripción detallada del Proyecto Uno.',
         imageUrl: 'assets/img/work4.jpg',
         projectUrl: 'https://www.figma.com/file/XdQbqzUGJiIPEk5IZhSbXD/Classroom-2%3A-Recargado?type=design&node-id=1516%3A368&mode=design&t=gW4KP2OqbZ6dtgc8-1'
@@ -108,7 +108,7 @@ const details = {
     'portfolio-5': {
         title: 'Easy Shop',
         category: 'Estudios',
-        description: 'Descripción detallada del Proyecto Uno.',
+        description: 'EasyShop es una plataforma de compras en línea diseñada con un enfoque en la usabilidad y la accesibilidad web. El objetivo es proporcionar a los usuarios una experiencia de compra sencilla y sin complicaciones, independientemente de su nivel de experiencia en la navegación web. Cuenta con un carrito sencillo manejado con JS básico y localstorage para enviar el carrito entre páginas.',
         imageUrl: 'assets/img/work5.jpg',
         projectUrl: 'https://draklif.github.io/EasyShop/'
     },
@@ -118,6 +118,20 @@ const details = {
         description: 'Descripción detallada del Proyecto Uno.',
         imageUrl: 'assets/img/work6.jpg',
         projectUrl: 'https://draklif.github.io/TDW-TallerVue/'
+    },
+    'portfolio-7': {
+        title: 'Skinbox',
+        category: 'Desarrollo Web',
+        description: 'Descripción detallada del Proyecto Uno.',
+        imageUrl: 'assets/img/work7.jpg',
+        projectUrl: 'https://draklif.github.io/Skinbox/'
+    },
+    'portfolio-8': {
+        title: 'MIMO-3',
+        category: 'Diseño y Modelado',
+        description: 'Proceso de diseño para un personaje de un videojuego. MIMO-3 es un pequeño robot modelado y animado en Blender.<br><br>Se aplicó un blocking sencillo, una retopología simple y, posteriormente, un proceso de rigging personalizado que permitiera mover cada pieza del robot de manera independiente. El texturizado se realizó en Substance 3D Painter, otorgándole realismo al diseño.<br><br>El proceso a detalle se puede ver a continuación:',
+        imageUrl: 'assets/img/work8.jpg',
+        projectUrl: 'https://draklif.github.io/Skinbox/'
     },
     'more-1': {
         title: 'Identificador Gráfico',
@@ -143,9 +157,9 @@ const details = {
     'logo': {
         title: 'Identificador Gráfico',
         category: 'NA',
-        description: 'Descripción detallada del Proyecto Uno.',
+        description: 'El identificador gráfico fue diseñado.',
         imageUrl: 'assets/img/LogoBlack.png',
-        projectUrl: ''
+        projectUrl: 'https://www.behance.net/gallery/181631701/Proyecto-de-Marca'
     },
 };
 
@@ -214,7 +228,7 @@ function loadSidebar(project) {
 
     // Actualiza la descripción
     const descriptionElement = sidebar.querySelector('.portfolio-sidebar-description');
-    descriptionElement.textContent = project.description;
+    descriptionElement.innerHTML = project.description;
 
     openSidebar();
 }
