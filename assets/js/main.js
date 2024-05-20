@@ -133,6 +133,34 @@ const details = {
         imageUrl: 'assets/img/work8.jpg',
         projectUrl: 'https://www.behance.net/gallery/184733399/MIMO-3'
     },
+    'portfolio-9': {
+        title: 'Wired: Beyond Astralis',
+        category: 'Videojuegos',
+        description: 'Prototipo de videojuego roguelike en Unreal Engine 5 proyectado a ser publicado a finales del 2024.',
+        imageUrl: 'assets/img/work9.jpg',
+        projectUrl: 'https://github.com/Draklif/Wired'
+    },
+    'portfolio-10': {
+        title: 'Simulador de Vuelo',
+        category: 'Realidad mixta',
+        description: 'Simulador de vuelo en Unity usando un control personalizado con Arduino.',
+        imageUrl: 'assets/img/work10.jpg',
+        projectUrl: 'https://github.com/Draklif/AR-FlightSim'
+    },
+    'portfolio-11': {
+        title: 'Potion Delver',
+        category: 'Realidad virtual',
+        description: 'Videojuego sencillo de realidad virtual en Unity en el que el jugador puede crear pociones de diferentes combinándolas en un caldero. Disponible para dispositivos móviles.',
+        imageUrl: 'assets/img/work11.jpg',
+        projectUrl: 'https://github.com/Draklif/VR-PotionDelver'
+    },
+    'portfolio-12': {
+        title: 'Sistema Solar',
+        category: 'Videojuegos',
+        description: 'Simulación de un sistema solar en Unity siguiendo serie de Sebastian Lague.',
+        imageUrl: 'assets/img/work12.jpg',
+        projectUrl: 'https://github.com/Draklif/SIM-Universe'
+    },
     'more-1': {
         title: 'Identificador Gráfico',
         category: 'NA',
