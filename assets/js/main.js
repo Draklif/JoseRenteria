@@ -161,6 +161,27 @@ const details = {
         imageUrl: 'assets/img/work12.jpg',
         projectUrl: 'https://github.com/Draklif/SIM-Universe'
     },
+    'portfolio-13': {
+        title: 'Atrum',
+        category: 'Videojuegos',
+        description: 'Videojuego de terror desarrollado en Unreal Engine creado para una gamejam.',
+        imageUrl: 'assets/img/work13.jpg',
+        projectUrl: 'https://github.com/Draklif/Atrum'
+    },
+    'portfolio-14': {
+        title: 'Byte By Byte: Daily Byte',
+        category: 'Videojuegos',
+        description: 'Videojuego tipo tamagotchi desarrollado en Unreal Engine creado para el universo transmedia de Byte By Byte. Sincronización con mundo real en tiempo.',
+        imageUrl: 'assets/img/work14.jpg',
+        projectUrl: 'https://github.com/Draklif/Byte-By-Byte-Unreal'
+    },
+    'portfolio-15': {
+        title: 'Byte By Byte: Webpage',
+        category: 'Desarrollo Web',
+        description: 'Página web que actúa como nexo de información para el universo transmedia de Byte By Byte. Centraliza actualizaciones, historias y proyectos relacionados con el universo.',
+        imageUrl: 'assets/img/work15.jpg',
+        projectUrl: 'https://draklif.github.io/Byte-By-Byte/'
+    },
     'more-1': {
         title: 'Identificador Gráfico',
         category: 'NA',
